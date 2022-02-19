@@ -21,3 +21,10 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+sftp-config.json
+composer.json
+composer.lock
+
+# Ignore duplicates
+README.txt
+LICENSE.md
