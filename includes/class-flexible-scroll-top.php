@@ -122,6 +122,11 @@ class Flexible_Scroll_Top {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-flexible-scroll-top-public.php';
 
+		/**
+		 * Include CodeStart framework
+		 */
+        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'vendor/codestar-framework/codestar-framework.php';
+
 		$this->loader = new Flexible_Scroll_Top_Loader();
 
 	}
