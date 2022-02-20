@@ -100,4 +100,227 @@ class Flexible_Scroll_Top_Admin {
 
 	}
 
+	/**
+	 * Add settings page
+	 *
+	 * @since 1.0.0
+	 */
+	public function add_settings_page() {
+
+		if ( class_exists( 'CSF' ) ) {
+
+			// Set a unique slug-like ID
+
+			$prefix = 'flexible_scroll_top';
+
+			// Create options
+			
+			CSF::createOptions( $prefix, array(
+				'menu_title' 		=> 'Flexible Scroll Top',
+				'menu_slug' 		=> 'flexible-scroll-top',
+				'menu_type'			=> 'submenu',
+				'menu_parent'		=> 'options-general.php',
+				'menu_position'		=> 100,
+				// 'menu_icon'			=> 'dashicons-arrow-up-alt2',
+				'framework_title' 	=> 'Flexible Scroll Top <small>by <a href="https://bowo.io" target="_blank">bowo.io</a></small>',
+				'framework_class' 	=> 'fst-options',
+				'show_bar_menu' 	=> false,
+				'show_search' 		=> false,
+				'show_reset_all' 	=> false,
+				'show_reset_section' => false,
+				'show_form_warning' => false,
+				'save_defaults'		=> true,
+				'show_footer' 		=> false,
+				'footer_credit'		=> 'Flexible Scroll Top is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a> generator, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar</a> framework, <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library and <a href="https://freeicons.io/" target="_blank">freeicons.io</a> icons.',
+			) );
+
+			// Create Button Options section
+			
+			CSF::createSection( $prefix, array(
+				'title'		=> 'Options',
+				'fields'	=> array(
+					array(
+						'id'		=> 'fst_options',
+						'type'		=> 'tabbed',
+						'title' 	=> 'Button Options',
+						'subtitle' => 'By simply enabling it, the scroll to top button uses sensible defaults that are good for most websites. You can customize the button\'s appearance and behaviour as needed.',
+						'tabs'		=> array(
+							array(
+								'title' => 'Main',
+								'fields' => array(
+									array(
+										'id' 		=> 'enable',
+										'type' 		=> 'switcher',
+										'title' 	=> 'Enable?',
+										'text_on' 	=> 'Yes',
+										'text_off' 	=> 'No',
+										'default'	=> false,
+									),
+									array(
+										'id' 		=> 'position',
+										'type' 		=> 'button_set',
+										'title' 	=> 'Position',
+										'options'	=> array(
+											'left'		=> 'Left side',
+											'right'		=> 'Right side',
+										),
+										'default'	=> 'right',
+									),
+									array(
+										'id'		=> 'style',
+										'type'      => 'image_select',
+										'title'     => 'Style',
+										'class'		=> 'icon-style',
+										'options'   => array(
+											'rounded'	=> plugin_dir_url( __FILE__ ) . 'img/button_style_rounded.png',
+											'square'	=> plugin_dir_url( __FILE__ ) . 'img/button_style_square.png',
+											'circle'	=> plugin_dir_url( __FILE__ ) . 'img/button_style_circle.png',
+										),
+										'default'   => 'rounded'
+									),
+								),
+							),
+							array(
+								'title' => 'Appearance',
+								'fields' => array(
+									array(
+										'id'		=> 'icon',
+										'type'      => 'image_select',
+										'title'     => 'Icon',
+										'class'		=> 'icon-options',
+										'options'   => array(
+											'up1'	=> plugin_dir_url( __FILE__ ) . 'img/up1.png',
+											'up1'	=> plugin_dir_url( __FILE__ ) . 'img/up1.png',
+											'up2'	=> plugin_dir_url( __FILE__ ) . 'img/up2.png',
+											'up3'	=> plugin_dir_url( __FILE__ ) . 'img/up3.png',
+											'up8'	=> plugin_dir_url( __FILE__ ) . 'img/up8.png',
+											'up10'	=> plugin_dir_url( __FILE__ ) . 'img/up10.png',
+											'up9'	=> plugin_dir_url( __FILE__ ) . 'img/up9.png',
+											'up5'	=> plugin_dir_url( __FILE__ ) . 'img/up5.png',
+											'up7'	=> plugin_dir_url( __FILE__ ) . 'img/up7.png',
+											'up4'	=> plugin_dir_url( __FILE__ ) . 'img/up4.png',
+											'up11'	=> plugin_dir_url( __FILE__ ) . 'img/up11.png',
+										),
+										'default'   => 'up1',
+									),
+									array(
+										'id' 		=> 'size',
+										'type' 		=> 'button_set',
+										'title' 	=> 'Size',
+										'options'	=> array(
+											'small'		=> 'Small',
+											'medium'	=> 'Medium',
+											'large'		=> 'Large',
+										),
+										'default'	=> 'medium',
+									),
+									array(
+										'id'      	=> 'corner_spacing',
+										'type'    	=> 'text',
+										'title'   	=> 'Corner Spacing',
+										'subtitle'	=> 'Distance from bottom and side edges.',
+										'after'		=> 'In pixels.',
+										'default' 	=> '20',
+										'validate' => 'csf_validate_numeric',
+									),
+									array(
+										'id' 		=> 'border',
+										'type' 		=> 'switcher',
+										'title' 	=> 'Border',
+										'text_on' 	=> 'Yes',
+										'text_off' 	=> 'No',
+										'default'	=> false,
+									),
+									array(
+										'id' 		=> 'color_scheme',
+										'type' 		=> 'button_set',
+										'title' 	=> 'Color Scheme',
+										'options'	=> array(
+											'dark'		=> 'Dark',
+											'light'		=> 'Light',
+											'custom'	=> 'Custom',
+										),
+										'default'	=> 'dark',
+									),
+									array(
+										'id'    		=> 'color_arrow',
+										'type'  		=> 'color',
+										'title' 		=> 'Arrow Color',
+										'dependency'	=> array( 'color_scheme', '==', 'custom' ),
+										'default'		=> '#ffffff',
+									),
+									array(
+										'id'    		=> 'color_bg',
+										'type'  		=> 'color',
+										'title' 		=> 'Background Color',
+										'dependency'	=> array( 'color_scheme', '==', 'custom' ),
+										'default'		=> '#000000',
+									),
+									array(
+										'id'    		=> 'color_border',
+										'type'  		=> 'color',
+										'title' 		=> 'Border Color',
+										'dependency'	=> array(
+											array( 'border', '==', true ),
+											array( 'color_scheme', '==', 'custom' ),
+										),
+										'default'		=> '#ffffff',
+									),
+								),
+							),
+							array(
+								'title' => 'Behaviour',
+								'fields' => array(
+									array(
+										'id'      	=> 'idle_opacity',
+										'type'    	=> 'text',
+										'title'   	=> 'Idle Opacity',
+										'subtitle'	=> 'For when the button is left unclicked when scrolling down a page.',
+										'after'		=> 'In %, where 0 is fully transparent and 100 is fully opaque.',
+										'default' 	=> '50',
+										'validate' => 'csf_validate_numeric',
+									),
+									array(
+										'id'      	=> 'scroll_speed',
+										'type'    	=> 'text',
+										'title'   	=> 'Scroll Speed',
+										'subtitle'	=> 'How long it takes for a page to scroll back to top.',
+										'after'		=> 'In miliseconds',
+										'default' 	=> '300',
+										'validate' => 'csf_validate_numeric',
+									),
+									array(
+										'id'      	=> 'offset_show',
+										'type'    	=> 'text',
+										'title'   	=> 'Offset to Show',
+										'subtitle'	=> 'How far down a page it takes to scroll before the button appears.',
+										'after'		=> 'In pixels',
+										'default' 	=> '800',
+										'validate' => 'csf_validate_numeric',
+									),
+									array(
+										'id'      	=> 'offset_fade',
+										'type'    	=> 'text',
+										'title'   	=> 'Offset to Fade',
+										'subtitle'	=> 'How far down a page it takes to scroll before the button becomes semi-transparent as defined in the Idle Opacity settings above.',
+										'after'		=> 'In pixels',
+										'default' 	=> '1600',
+										'validate' => 'csf_validate_numeric',
+									),
+								),
+							),
+						),
+					),
+					// array(
+					// 	'type'		=> 'content',
+					// 	// 'title'		=> 'About',
+					// 	'content'	=> '<small>Flexible Scroll Top is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a> generator, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar Framework</a> and the <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library from <a href="https://codyhouse.co/" target="_blank">CodyHouse</a>.</small>',
+					// ),
+				),
+			) );
+
+		}
+
+	}
+
 }

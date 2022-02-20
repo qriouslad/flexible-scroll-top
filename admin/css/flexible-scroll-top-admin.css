@@ -2,3 +2,28 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+/* Simplify settings save bars 
+http://support.codestarthemes.com/topic/submenu-with-no-panel-only-save-button
+*/
+
+.fst-options .csf-header-inner {
+    background-color: #fafafa;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.csf-theme-dark .csf-header-inner h1 {
+    color:  #23282d;
+}
+
+.csf-field-image_select.icon-style img {
+    width: 44px;
+    height:  44px;
+    padding:  12px;
+}
+
+.csf-field-image_select.icon-options img {
+    width: 32px;
+    height:  32px;
+    padding:  12px;
+}
