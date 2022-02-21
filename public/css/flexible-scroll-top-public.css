@@ -2,3 +2,24 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+/* From CodyHouse's Back to Top library - https://github.com/CodyHouse/back-to-top/blob/master/assets/css/style.css */
+
+.to-top {
+    position: fixed;
+    display: inline-block;
+}
+
+.fst .to-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+}
+.fst .to-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.fst .to-top:hover {
+    opacity: 1;
+}
