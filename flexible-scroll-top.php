@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Flexible Scroll Top
  * Plugin URI:        https://github.com/qriouslad/flexible-scroll-top
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Add an easily customizable scroll to top button to your website.
  * Version:           1.0.0
  * Author:            Bowo
  * Author URI:        https://bowo.io
