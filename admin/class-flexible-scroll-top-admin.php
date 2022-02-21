@@ -306,7 +306,7 @@ class Flexible_Scroll_Top_Admin {
 										'type'    	=> 'text',
 										'title'   	=> 'Idle Transparency',
 										'subtitle'	=> 'For when the button is left unclicked when scrolling down a page.',
-										'after'		=> 'In %, where 100 is fully transparent and 0 is prevents fading.',
+										'after'		=> 'In %. 100 is fully transparent and 0 prevents fading.',
 										'default' 	=> '70',
 										'validate' => 'csf_validate_numeric',
 									),

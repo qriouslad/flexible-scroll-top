@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Flexible Scroll Top
  * Plugin URI:        https://github.com/qriouslad/flexible-scroll-top
- * Description:       Add an easily customizable scroll to top button to your website.
+ * Description:       Add a customizable, mobile-friendly scroll to top button that matches the design of your website. Uses SVG icon with no jQuery dependency. It's fast!
  * Version:           1.0.0
  * Author:            Bowo
  * Author URI:        https://bowo.io
