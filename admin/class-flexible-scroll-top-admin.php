@@ -126,7 +126,7 @@ class Flexible_Scroll_Top_Admin {
 				'framework_class' 	=> 'fst-options',
 				'show_bar_menu' 	=> false,
 				'show_search' 		=> false,
-				'show_reset_all' 	=> false,
+				'show_reset_all' 	=> true,
 				'show_reset_section' => false,
 				'show_form_warning' => false,
 				'save_defaults'		=> true,
@@ -140,7 +140,7 @@ class Flexible_Scroll_Top_Admin {
 				'title'		=> 'Options',
 				'fields'	=> array(
 					array(
-						'id'		=> 'fst_options',
+						'id'		=> 'fst_button',
 						'type'		=> 'tabbed',
 						'title' 	=> 'Button Options',
 						'subtitle' => 'By simply enabling it, the scroll to top button uses sensible defaults that are good for most websites. You can customize the button\'s appearance and behaviour as needed.',
@@ -155,6 +155,7 @@ class Flexible_Scroll_Top_Admin {
 										'text_on' 	=> 'Yes',
 										'text_off' 	=> 'No',
 										'default'	=> false,
+										'class'		=> 'fst-enable',
 									),
 									array(
 										'id' 		=> 'position',
@@ -190,7 +191,6 @@ class Flexible_Scroll_Top_Admin {
 										'class'		=> 'icon-options',
 										'options'   => array(
 											'up1'	=> plugin_dir_url( __FILE__ ) . 'img/up1.png',
-											'up1'	=> plugin_dir_url( __FILE__ ) . 'img/up1.png',
 											'up2'	=> plugin_dir_url( __FILE__ ) . 'img/up2.png',
 											'up3'	=> plugin_dir_url( __FILE__ ) . 'img/up3.png',
 											'up8'	=> plugin_dir_url( __FILE__ ) . 'img/up8.png',
@@ -215,13 +215,16 @@ class Flexible_Scroll_Top_Admin {
 										'default'	=> 'medium',
 									),
 									array(
-										'id'      	=> 'corner_spacing',
-										'type'    	=> 'text',
-										'title'   	=> 'Corner Spacing',
+										'id' 		=> 'corner_spacing',
+										'type' 		=> 'button_set',
+										'title' 	=> 'Corner Spacing',
 										'subtitle'	=> 'Distance from bottom and side edges.',
-										'after'		=> 'In pixels.',
-										'default' 	=> '20',
-										'validate' => 'csf_validate_numeric',
+										'options'	=> array(
+											'small'		=> 'Small',
+											'medium'	=> 'Medium',
+											'large'		=> 'Large',
+										),
+										'default'	=> 'medium',
 									),
 									array(
 										'id' 		=> 'border',
@@ -243,21 +246,21 @@ class Flexible_Scroll_Top_Admin {
 										'default'	=> 'dark',
 									),
 									array(
-										'id'    		=> 'color_arrow',
-										'type'  		=> 'color',
-										'title' 		=> 'Arrow Color',
-										'dependency'	=> array( 'color_scheme', '==', 'custom' ),
-										'default'		=> '#ffffff',
-									),
-									array(
-										'id'    		=> 'color_bg',
+										'id'    		=> 'background_color',
 										'type'  		=> 'color',
 										'title' 		=> 'Background Color',
 										'dependency'	=> array( 'color_scheme', '==', 'custom' ),
 										'default'		=> '#000000',
 									),
 									array(
-										'id'    		=> 'color_border',
+										'id'    		=> 'icon_color',
+										'type'  		=> 'color',
+										'title' 		=> 'Icon Color',
+										'dependency'	=> array( 'color_scheme', '==', 'custom' ),
+										'default'		=> '#ffffff',
+									),
+									array(
+										'id'    		=> 'border_color',
 										'type'  		=> 'color',
 										'title' 		=> 'Border Color',
 										'dependency'	=> array(
@@ -272,40 +275,49 @@ class Flexible_Scroll_Top_Admin {
 								'title' => 'Behaviour',
 								'fields' => array(
 									array(
-										'id'      	=> 'idle_opacity',
+										'id'      	=> 'scroll_duration',
 										'type'    	=> 'text',
-										'title'   	=> 'Idle Opacity',
-										'subtitle'	=> 'For when the button is left unclicked when scrolling down a page.',
-										'after'		=> 'In %, where 0 is fully transparent and 100 is fully opaque.',
-										'default' 	=> '50',
-										'validate' => 'csf_validate_numeric',
-									),
-									array(
-										'id'      	=> 'scroll_speed',
-										'type'    	=> 'text',
-										'title'   	=> 'Scroll Speed',
+										'title'   	=> 'Scroll Duration',
 										'subtitle'	=> 'How long it takes for a page to scroll back to top.',
-										'after'		=> 'In miliseconds',
+										'after'		=> 'In miliseconds.',
 										'default' 	=> '300',
 										'validate' => 'csf_validate_numeric',
 									),
 									array(
 										'id'      	=> 'offset_show',
 										'type'    	=> 'text',
-										'title'   	=> 'Offset to Show',
+										'title'   	=> 'Scroll to Show',
 										'subtitle'	=> 'How far down a page it takes to scroll before the button appears.',
-										'after'		=> 'In pixels',
+										'after'		=> 'In pixels.',
 										'default' 	=> '800',
 										'validate' => 'csf_validate_numeric',
 									),
 									array(
 										'id'      	=> 'offset_fade',
 										'type'    	=> 'text',
-										'title'   	=> 'Offset to Fade',
-										'subtitle'	=> 'How far down a page it takes to scroll before the button becomes semi-transparent as defined in the Idle Opacity settings above.',
-										'after'		=> 'In pixels',
+										'title'   	=> 'Scroll to Fade',
+										'subtitle'	=> 'How far down a page it takes to scroll before the button becomes semi-transparent as defined in the Idle Transparency settings below.',
+										'after'		=> 'In pixels. Use 999999 to disable fading.',
 										'default' 	=> '1600',
 										'validate' => 'csf_validate_numeric',
+									),
+									array(
+										'id'      	=> 'idle_transparency',
+										'type'    	=> 'text',
+										'title'   	=> 'Idle Transparency',
+										'subtitle'	=> 'For when the button is left unclicked when scrolling down a page.',
+										'after'		=> 'In %, where 100 is fully transparent and 0 is prevents fading.',
+										'default' 	=> '70',
+										'validate' => 'csf_validate_numeric',
+									),
+									array(
+										'id' 		=> 'hide_on_mobile',
+										'type' 		=> 'switcher',
+										'title' 	=> 'Hide on mobile',
+										'subtitle'	=> 'For screen widths below 800 pixels or equivalent.',
+										'text_on' 	=> 'Yes',
+										'text_off' 	=> 'No',
+										'default'	=> false,
 									),
 								),
 							),
@@ -320,6 +332,21 @@ class Flexible_Scroll_Top_Admin {
 			) );
 
 		}
+
+	}
+
+	/**
+	 * Add 'settings' action link in plugins page
+	 *
+	 * @since 1.0.0
+	 */
+	public function add_settings_link( $links ) {
+
+		$settings_link = '<a href="options-general.php?page='.$this->plugin_name.'">Settings</a>';
+
+		array_unshift($links, $settings_link); 
+
+		return $links; 
 
 	}
 
