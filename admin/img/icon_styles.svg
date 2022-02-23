@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="icon_styles.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="397.25"
+     inkscape:cy="92.25"
+     inkscape:window-width="2256"
+     inkscape:window-height="1437"
+     inkscape:window-x="-9"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000000;stroke-width:0.26161"
+       id="path279"
+       cx="64.029167"
+       cy="21.695831"
+       r="5.8208332"
+       inkscape:export-filename="C:\Data\Vocation\Bowo.io\Practice\Plugin Builds\2022.02 - Flexible Scroll Top\button_style_circle.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect31"
+       width="11.641666"
+       height="11.641666"
+       x="15.875"
+       y="15.874999"
+       rx="1.3229166"
+       ry="1.3229166"
+       inkscape:export-filename="C:\Data\Vocation\Bowo.io\Practice\Plugin Builds\2022.02 - Flexible Scroll Top\button_style_rounded.png"
+       inkscape:export-xdpi="191.99998"
+       inkscape:export-ydpi="191.99998" />
+    <image
+       width="7.4083333"
+       height="7.4083333"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUqSURBVHhe7dxZTyRVGMZxvByj0WjUiUajMfoZ
+iIkxhlvCckGAK5ZvQQgJW7ND2Pdhkxg0alzjFleQfd9JgFsE92V0TAA9Z+Y9OoMDnKpeqqr7/0s6
+oaHrPVX1PF10kw5JAAAAAAAAAAAAAAAAAAAAAAAAAAAAQZGcnHxF3+QuEklWVtaV8fHxg8nJye/U
+1/fJt5EIJPxv/xZTU1OUIFGcDd+gBAlAhz8xMfG/8A1Vgu/T0tLul4cjnlwWvkEJ4lBqauq9NuEb
+lCCOOA3foARxQMI/lEwdm56epgRBFW74BiUIIB3YzMzMD5Jh2BYWFn5OT09/UMbDzyIdvkEJAiBa
+4Ru6BOrt5EOyHPxEBfNANMM3KIEP6fBnZ2d/lIysjY6Ozuib3LWm19JryvLwkoTv+Jk/Nja2pDa/
+R99UCabl29YWFxe5EnjN7TN/ZGRkSm2uw/9Xf3//F/Jja5TAQ5EM3+jr6/tcHmaNEnggzPAv5LIE
+v1CCGHEb/vDw8Dcy4lKqBJ/JZtZ0CTIyMh6WEYgGHf7c3FxUwzcogc+EEf6EjHCst7f3UxljbWlp
+iRJEmhfhG5TAY/rv716Fb1ACj0j4P8k5tTY0NDQuIyKmp6fnExlvjRKEwU/hGy5L8CslcMht+IOD
+g1/LiKhRJfhYlrOmS6BexzwiI3ARHf78/LwvwzcoQZS4DX9gYOArGREz3d3dH8ny1paXlynBeYIU
+vkEJIkSfEH1i5BxZ8zJ8w00J1tfXr6tjviojEpuE/5ucG2sq/C9lhOe6uro+lN2yRgmUzMzMR4Me
+vkEJHHIbvv7ghozwnc7Ozg9kN63pEuTk5DwuIxKDDn9lZSWuwjfclGBjYyNxShDP4RuU4ByJEL7R
+3Nz8uuy+tbgugdvw1bPpfRkROE1NTZRA0+Gvrq7+LsdoLcjhG42Nja/J4VhTJfgjbkqgDuQxN+F3
+dHS8JyMCr6am5lU5LGu6BOot4hMyIpgI/z+hUGj09PRUjtBOoEvgNvy2trZ3ZUTcKSsrGz45OZEj
+tRPIEujw19bWCP8uSktLHZdgc3MzOCUg/MuVlJQMxWUJ3Ibf3t7+joxIGMXFxdeOj4/lDNjxdQl0
++Ovr64TvQFFR0TU3V4Ls7OwnZYQ/uA1fXfbflhEJS18JnJZga2vLPyVQl6SrhB8e9cJw0OlbRF+U
+gPAjJxQKjcjpseZpCST867Iv1lpbW9+SETijtrb2FTlN1jwpAeFHT319vZsS/BmzEqjwn9ILytrW
+Wlpa3pQRuISbEuzu7t5QJXhWRkSHDn97e5vwY6ChocFfJQgj/DdkBBxSV4JhOY3WolICwveOyxL8
+FbESEL73dAmc/p1AlyA3N/c5GeGOatHTTsPXO1pXVzckIxAhoVCoK6Yl0OHv7OwQvo+oEnTEpARu
+w6+trR2UEYgSNyXY29uzLwHh+19lZWV7VEoQRvgDMgIx4rYEKuPnZcSdJPwb8lgrhO+tiJVAvdV7
+hvCDqaKioi2sEoQRfv/NAfCcLoHTD5Xs7+/fKoHT/8alw6+qquqWteETOhOnVwKdfVJeXl7ywcGB
+1acTJfw+WRM+U15e3mJ7JTg8PDzJz89/8eaGNiUg/GBQJWi9rARHR0cnBQUFL8kmt6g2vHBeCQg/
+WC4qwV3DN6QEd2ypw6+uru6RhyAg1AvD5rMluDB84/YSEH6w3V4CHX5hYeHL8qOLmV8HhB98ZWVl
+TfoFn3X4RkpKCv/hOk6QJQAAAAAAAAAAAAAAAAAAAAAAAAAA8SIp6R+JE/KJ+uIg9gAAAABJRU5E
+rkJggg==
+"
+       id="image143"
+       x="17.991667"
+       y="17.991665"
+       inkscape:export-filename="C:\Data\Vocation\Bowo.io\Practice\Plugin Builds\2022.02 - Flexible Scroll Top\button_style_rounded.png"
+       inkscape:export-xdpi="191.99998"
+       inkscape:export-ydpi="191.99998" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect147"
+       width="11.641666"
+       height="11.641666"
+       x="37.041664"
+       y="15.874999"
+       inkscape:export-filename="C:\Data\Vocation\Bowo.io\Practice\Plugin Builds\2022.02 - Flexible Scroll Top\button_style_square.png"
+       inkscape:export-xdpi="191.99998"
+       inkscape:export-ydpi="191.99998" />
+    <image
+       width="7.4083333"
+       height="7.4083333"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUqSURBVHhe7dxZTyRVGMZxvByj0WjUiUajMfoZ
+iIkxhlvCckGAK5ZvQQgJW7ND2Pdhkxg0alzjFleQfd9JgFsE92V0TAA9Z+Y9OoMDnKpeqqr7/0s6
+oaHrPVX1PF10kw5JAAAAAAAAAAAAAAAAAAAAAAAAAAAAQZGcnHxF3+QuEklWVtaV8fHxg8nJye/U
+1/fJt5EIJPxv/xZTU1OUIFGcDd+gBAlAhz8xMfG/8A1Vgu/T0tLul4cjnlwWvkEJ4lBqauq9NuEb
+lCCOOA3foARxQMI/lEwdm56epgRBFW74BiUIIB3YzMzMD5Jh2BYWFn5OT09/UMbDzyIdvkEJAiBa
+4Ru6BOrt5EOyHPxEBfNANMM3KIEP6fBnZ2d/lIysjY6Ozuib3LWm19JryvLwkoTv+Jk/Nja2pDa/
+R99UCabl29YWFxe5EnjN7TN/ZGRkSm2uw/9Xf3//F/Jja5TAQ5EM3+jr6/tcHmaNEnggzPAv5LIE
+v1CCGHEb/vDw8Dcy4lKqBJ/JZtZ0CTIyMh6WEYgGHf7c3FxUwzcogc+EEf6EjHCst7f3UxljbWlp
+iRJEmhfhG5TAY/rv716Fb1ACj0j4P8k5tTY0NDQuIyKmp6fnExlvjRKEwU/hGy5L8CslcMht+IOD
+g1/LiKhRJfhYlrOmS6BexzwiI3ARHf78/LwvwzcoQZS4DX9gYOArGREz3d3dH8ny1paXlynBeYIU
+vkEJIkSfEH1i5BxZ8zJ8w00J1tfXr6tjviojEpuE/5ucG2sq/C9lhOe6uro+lN2yRgmUzMzMR4Me
+vkEJHHIbvv7ghozwnc7Ozg9kN63pEuTk5DwuIxKDDn9lZSWuwjfclGBjYyNxShDP4RuU4ByJEL7R
+3Nz8uuy+tbgugdvw1bPpfRkROE1NTZRA0+Gvrq7+LsdoLcjhG42Nja/J4VhTJfgjbkqgDuQxN+F3
+dHS8JyMCr6am5lU5LGu6BOot4hMyIpgI/z+hUGj09PRUjtBOoEvgNvy2trZ3ZUTcKSsrGz45OZEj
+tRPIEujw19bWCP8uSktLHZdgc3MzOCUg/MuVlJQMxWUJ3Ibf3t7+joxIGMXFxdeOj4/lDNjxdQl0
++Ovr64TvQFFR0TU3V4Ls7OwnZYQ/uA1fXfbflhEJS18JnJZga2vLPyVQl6SrhB8e9cJw0OlbRF+U
+gPAjJxQKjcjpseZpCST867Iv1lpbW9+SETijtrb2FTlN1jwpAeFHT319vZsS/BmzEqjwn9ILytrW
+Wlpa3pQRuISbEuzu7t5QJXhWRkSHDn97e5vwY6ChocFfJQgj/DdkBBxSV4JhOY3WolICwveOyxL8
+FbESEL73dAmc/p1AlyA3N/c5GeGOatHTTsPXO1pXVzckIxAhoVCoK6Yl0OHv7OwQvo+oEnTEpARu
+w6+trR2UEYgSNyXY29uzLwHh+19lZWV7VEoQRvgDMgIx4rYEKuPnZcSdJPwb8lgrhO+tiJVAvdV7
+hvCDqaKioi2sEoQRfv/NAfCcLoHTD5Xs7+/fKoHT/8alw6+qquqWteETOhOnVwKdfVJeXl7ywcGB
+1acTJfw+WRM+U15e3mJ7JTg8PDzJz89/8eaGNiUg/GBQJWi9rARHR0cnBQUFL8kmt6g2vHBeCQg/
+WC4qwV3DN6QEd2ypw6+uru6RhyAg1AvD5rMluDB84/YSEH6w3V4CHX5hYeHL8qOLmV8HhB98ZWVl
+TfoFn3X4RkpKCv/hOk6QJQAAAAAAAAAAAAAAAAAAAAAAAAAA8SIp6R+JE/KJ+uIg9gAAAABJRU5E
+rkJggg==
+"
+       id="image149"
+       x="39.158333"
+       y="17.991665"
+       inkscape:export-filename="C:\Data\Vocation\Bowo.io\Practice\Plugin Builds\2022.02 - Flexible Scroll Top\button_style_square.png"
+       inkscape:export-xdpi="191.99998"
+       inkscape:export-ydpi="191.99998" />
+    <image
+       width="7.4083333"
+       height="7.4083333"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUqSURBVHhe7dxZTyRVGMZxvByj0WjUiUajMfoZ
+iIkxhlvCckGAK5ZvQQgJW7ND2Pdhkxg0alzjFleQfd9JgFsE92V0TAA9Z+Y9OoMDnKpeqqr7/0s6
+oaHrPVX1PF10kw5JAAAAAAAAAAAAAAAAAAAAAAAAAAAAQZGcnHxF3+QuEklWVtaV8fHxg8nJye/U
+1/fJt5EIJPxv/xZTU1OUIFGcDd+gBAlAhz8xMfG/8A1Vgu/T0tLul4cjnlwWvkEJ4lBqauq9NuEb
+lCCOOA3foARxQMI/lEwdm56epgRBFW74BiUIIB3YzMzMD5Jh2BYWFn5OT09/UMbDzyIdvkEJAiBa
+4Ru6BOrt5EOyHPxEBfNANMM3KIEP6fBnZ2d/lIysjY6Ozuib3LWm19JryvLwkoTv+Jk/Nja2pDa/
+R99UCabl29YWFxe5EnjN7TN/ZGRkSm2uw/9Xf3//F/Jja5TAQ5EM3+jr6/tcHmaNEnggzPAv5LIE
+v1CCGHEb/vDw8Dcy4lKqBJ/JZtZ0CTIyMh6WEYgGHf7c3FxUwzcogc+EEf6EjHCst7f3UxljbWlp
+iRJEmhfhG5TAY/rv716Fb1ACj0j4P8k5tTY0NDQuIyKmp6fnExlvjRKEwU/hGy5L8CslcMht+IOD
+g1/LiKhRJfhYlrOmS6BexzwiI3ARHf78/LwvwzcoQZS4DX9gYOArGREz3d3dH8ny1paXlynBeYIU
+vkEJIkSfEH1i5BxZ8zJ8w00J1tfXr6tjviojEpuE/5ucG2sq/C9lhOe6uro+lN2yRgmUzMzMR4Me
+vkEJHHIbvv7ghozwnc7Ozg9kN63pEuTk5DwuIxKDDn9lZSWuwjfclGBjYyNxShDP4RuU4ByJEL7R
+3Nz8uuy+tbgugdvw1bPpfRkROE1NTZRA0+Gvrq7+LsdoLcjhG42Nja/J4VhTJfgjbkqgDuQxN+F3
+dHS8JyMCr6am5lU5LGu6BOot4hMyIpgI/z+hUGj09PRUjtBOoEvgNvy2trZ3ZUTcKSsrGz45OZEj
+tRPIEujw19bWCP8uSktLHZdgc3MzOCUg/MuVlJQMxWUJ3Ibf3t7+joxIGMXFxdeOj4/lDNjxdQl0
++Ovr64TvQFFR0TU3V4Ls7OwnZYQ/uA1fXfbflhEJS18JnJZga2vLPyVQl6SrhB8e9cJw0OlbRF+U
+gPAjJxQKjcjpseZpCST867Iv1lpbW9+SETijtrb2FTlN1jwpAeFHT319vZsS/BmzEqjwn9ILytrW
+Wlpa3pQRuISbEuzu7t5QJXhWRkSHDn97e5vwY6ChocFfJQgj/DdkBBxSV4JhOY3WolICwveOyxL8
+FbESEL73dAmc/p1AlyA3N/c5GeGOatHTTsPXO1pXVzckIxAhoVCoK6Yl0OHv7OwQvo+oEnTEpARu
+w6+trR2UEYgSNyXY29uzLwHh+19lZWV7VEoQRvgDMgIx4rYEKuPnZcSdJPwb8lgrhO+tiJVAvdV7
+hvCDqaKioi2sEoQRfv/NAfCcLoHTD5Xs7+/fKoHT/8alw6+qquqWteETOhOnVwKdfVJeXl7ywcGB
+1acTJfw+WRM+U15e3mJ7JTg8PDzJz89/8eaGNiUg/GBQJWi9rARHR0cnBQUFL8kmt6g2vHBeCQg/
+WC4qwV3DN6QEd2ypw6+uru6RhyAg1AvD5rMluDB84/YSEH6w3V4CHX5hYeHL8qOLmV8HhB98ZWVl
+TfoFn3X4RkpKCv/hOk6QJQAAAAAAAAAAAAAAAAAAAAAAAAAA8SIp6R+JE/KJ+uIg9gAAAABJRU5E
+rkJggg==
+"
+       id="image153"
+       x="60.325005"
+       y="17.991665"
+       inkscape:export-filename="C:\Data\Vocation\Bowo.io\Practice\Plugin Builds\2022.02 - Flexible Scroll Top\button_style_circle.png"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+  </g>
+</svg>
