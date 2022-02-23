@@ -313,7 +313,7 @@ class Flexible_Scroll_Top_Admin {
 									array(
 										'id' 		=> 'hide_on_mobile',
 										'type' 		=> 'switcher',
-										'title' 	=> 'Hide on mobile',
+										'title' 	=> 'Hide on Mobile',
 										'subtitle'	=> 'For screen widths below 800 pixels or equivalent.',
 										'text_on' 	=> 'Yes',
 										'text_off' 	=> 'No',
