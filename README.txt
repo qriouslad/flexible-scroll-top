@@ -4,7 +4,7 @@ Donate link: https://paypal.me/qriouslad
 Tags: scroll top, scroll to top, back to top, scroll up, svg scroll top, pure javascript scroll, pure js scroll, no jquery, wordpress plugin boilerplate, codestar framework
 Requires at least: 5.0
 Tested up to: 5.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,11 +18,13 @@ Please see the screenshots below for the range of customizations possible.
 
 ### Give Back
 
-Head over to the [GitHub repo](https://github.com/qriouslad/flexible-scroll-top) if you'd like to contribute code, or head over to my [PayPal.me](https://paypal.me/qriouslad) page if you'd like to buy me a cup of milk tea after finding this plugin useful for your website. Or, a quick and [nice review](https://wordpress.org/plugins/flexible-scroll-top/#reviews) would be great too!. Thanks!
+* [GitHub repo](https://github.com/qriouslad/flexible-scroll-top) to contribute code.
+* [PayPal.me](https://paypal.me/qriouslad) to buy me a cup of tea.
+* A quick and [nice review](https://wordpress.org/plugins/flexible-scroll-top/#reviews) would be great too!
 
-### Credits
+### Built With
 
-This plugin is built with the excellent [WordPress Plugin Boilerplate](https://github.com/devinvinson/WordPress-Plugin-Boilerplate/), [wppb.me](https://wppb.me/) generator, [CodeStar](https://github.com/Codestar/codestar-framework) admin options framework, [Back to Top](https://github.com/CodyHouse/back-to-top) pure javascript library and some nice [freeicons.io](https://freeicons.io/) icons from [icon king1](https://freeicons.io/profile/3), [Reda](https://freeicons.io/profile/6156), [wishforge.games](https://freeicons.io/profile/2257) and [Raj Dev](https://freeicons.io/profile/714).
+[WordPress Plugin Boilerplate](https://github.com/devinvinson/WordPress-Plugin-Boilerplate/) | [wppb.me](https://wppb.me/) | [CodeStar framework](https://github.com/Codestar/codestar-framework) | [Back to Top JS library](https://github.com/CodyHouse/back-to-top) | Icons from [freeicons.io](https://freeicons.io/) by [icon king1](https://freeicons.io/profile/3), [Reda](https://freeicons.io/profile/6156), [wishforge.games](https://freeicons.io/profile/2257) and [Raj Dev](https://freeicons.io/profile/714).
 
 == Installation ==
 
@@ -39,6 +41,9 @@ This plugin is built with the excellent [WordPress Plugin Boilerplate](https://g
 3. Options to change the behaviour of the button
 
 == Changelog ==
+
+= 1.0.1 (March 2022) =
+* Capitalize "Hide on Mobile" field title.
 
 = 1.0.0 (March 2022) =
 * Initial, stable release.
