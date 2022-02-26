@@ -131,7 +131,7 @@ class Flexible_Scroll_Top_Admin {
 				'show_form_warning' => false,
 				'save_defaults'		=> true,
 				'show_footer' 		=> false,
-				'footer_credit'		=> 'Flexible Scroll Top is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a> generator, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar</a> framework, <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library and <a href="https://freeicons.io/" target="_blank">freeicons.io</a> icons.',
+				'footer_credit'		=> '<a href="https://wordpress.org/plugins/flexible-scroll-top/" target="_blank">Flexible Scroll Top</a> (<a href="https://github.com/qriouslad/flexible-scroll-top" target="_blank">github</a>) is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a>, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar</a> framework, <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library and <a href="https://freeicons.io/" target="_blank">freeicons.io</a> icons.',
 			) );
 
 			// Create Button Options section
@@ -311,13 +311,22 @@ class Flexible_Scroll_Top_Admin {
 										'validate' => 'csf_validate_numeric',
 									),
 									array(
-										'id' 		=> 'hide_on_mobile',
+										'id' 		=> 'show_on_desktop',
 										'type' 		=> 'switcher',
-										'title' 	=> 'Hide on Mobile',
+										'title' 	=> 'Show on Desktop',
+										'subtitle'	=> 'For screen widths 800 pixels and above.',
+										'text_on' 	=> 'Yes',
+										'text_off' 	=> 'No',
+										'default'	=> true,
+									),
+									array(
+										'id' 		=> 'show_on_mobile',
+										'type' 		=> 'switcher',
+										'title' 	=> 'Show on Mobile',
 										'subtitle'	=> 'For screen widths below 800 pixels or equivalent.',
 										'text_on' 	=> 'Yes',
 										'text_off' 	=> 'No',
-										'default'	=> false,
+										'default'	=> true,
 									),
 								),
 							),
