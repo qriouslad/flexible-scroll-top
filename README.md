@@ -8,7 +8,7 @@ Please see the screenshots below for the range of customizations possible.
 
 <p><img src="https://raw.githubusercontent.com/qriouslad/flexible-scroll-top/main/public/assets/screenshot-2.jpg" alt="Appearance options" style=""></p>
 
-<p><img src="https://raw.githubusercontent.com/qriouslad/flexible-scroll-top/main/public/assets/screenshot-3.jpg" alt="Behaviour options" style=""></p>
+<p><img src="https://raw.githubusercontent.com/qriouslad/flexible-scroll-top/main/public/assets/screenshot-3.png" alt="Behaviour options" style=""></p>
 
 ## Installation
 
