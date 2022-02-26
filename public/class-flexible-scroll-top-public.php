@@ -206,11 +206,13 @@ class Flexible_Scroll_Top_Public {
 		$idle_transparency = $options['fst_button']['idle_transparency'];
 		$opacity = 1 - ( $idle_transparency / 100);
 
-		$hide_on_mobile = $options['fst_button']['hide_on_mobile'];
+		// Show or hide on desktop and mobile
 
-		if ( $hide_on_mobile == true ) {
+		$show_on_mobile = $options['fst_button']['show_on_mobile'];
 
-			$hide_on_mobile_css = '
+		if ( $show_on_mobile == false ) {
+
+			$show_on_mobile_css = '
 			@media (max-width:800px) {
 				.fst .to-top {
 					display: none;
@@ -219,8 +221,25 @@ class Flexible_Scroll_Top_Public {
 			';
 
 		} else {
-			$hide_on_mobile_css = '';
+			$show_on_mobile_css = '';
 		}
+
+		$show_on_desktop = $options['fst_button']['show_on_desktop'];
+
+		if ( $show_on_desktop == false ) {
+
+			$show_on_desktop_css = '
+			@media (min-width:801px) {
+				.fst .to-top {
+					display: none;
+				}
+			}
+			';
+
+		} else {
+			$show_on_desktop_css = '';
+		}
+
 
 		$styles = '
 
@@ -287,7 +306,9 @@ class Flexible_Scroll_Top_Public {
 			    opacity: var(--button-opacity);
 			}
 
-			'.$hide_on_mobile_css.'
+			'.$show_on_desktop_css.'
+
+			'.$show_on_mobile_css.'
 
 		';
 
@@ -326,6 +347,7 @@ class Flexible_Scroll_Top_Public {
 					window.addEventListener("load",function(event) {
 						document.head.insertAdjacentHTML("beforeend", styles);
 					},false);
+
 					if ( backTop ) {
 						//update back to top visibility on scrolling
 						window.addEventListener("scroll", function(event) {
