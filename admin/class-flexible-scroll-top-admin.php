@@ -253,6 +253,13 @@ class Flexible_Scroll_Top_Admin {
 										'default'		=> '#000000',
 									),
 									array(
+										'id'    		=> 'background_hover_color',
+										'type'  		=> 'color',
+										'title' 		=> 'Background Hover Color',
+										'dependency'	=> array( 'color_scheme', '==', 'custom' ),
+										'default'		=> '#000000',
+									),
+									array(
 										'id'    		=> 'icon_color',
 										'type'  		=> 'color',
 										'title' 		=> 'Icon Color',

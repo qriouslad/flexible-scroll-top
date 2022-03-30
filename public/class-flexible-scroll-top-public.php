@@ -184,14 +184,17 @@ class Flexible_Scroll_Top_Public {
 
 		if ( $color_scheme == 'dark' ) {
 			$background_color = '#000000';
+			$background_hover_color = '#000000';
 			$icon_color = '#ffffff';
 			$border_color = '#ffffff';
 		} elseif ( $color_scheme == 'light' ) {
 			$background_color = '#ffffff';
+			$background_hover_color = '#ffffff';
 			$icon_color = '#000000';
 			$border_color = '#000000';
 		} elseif ( $color_scheme == 'custom' ) {
 			$background_color = $options['fst_button']['background_color'];
+			$background_hover_color = $options['fst_button']['background_hover_color'];
 			$icon_color = $options['fst_button']['icon_color'];
 			$border_color = $options['fst_button']['border_color'];
 		} else {}
@@ -247,6 +250,7 @@ class Flexible_Scroll_Top_Public {
 				--corner-spacing: '.$corner_spacing_numeric.'px;
 				--icon-size: '.$size_numeric.'px;
 				--background-color: '.$background_color.';
+				--background-hover-color: '.$background_hover_color.';
 				--icon-color: '.$icon_color.';
 				--border-color: '.$border_color.';
 				--button-opacity: '.$opacity.'; 
@@ -258,6 +262,10 @@ class Flexible_Scroll_Top_Public {
 				justify-content: center;
 				padding: 8px;
 				background: var(--background-color);
+			}
+
+			.to-top:hover {
+				background: var(--background-hover-color);				
 			}
 
 			.to-top svg {
