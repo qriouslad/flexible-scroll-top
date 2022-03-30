@@ -4,7 +4,7 @@ Donate link: https://paypal.me/qriouslad
 Tags: scroll top, scroll to top, back to top, scroll up, no jquery
 Requires at least: 5.0
 Tested up to: 5.9
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ Flexible Scroll top was built with: [WordPress Plugin Boilerplate](https://githu
 3. Options to change the behaviour of the button
 
 == Changelog ==
+
+= 1.2.0 (February 2022) =
+* Add background hover color settings
 
 = 1.1.0 (February 2022) =
 * Replace "Hide on Mobile" option with "Show on Desktop" and "Show on Mobile" options. This is for better control of how the button is shown or hidden on both screen sizes.
