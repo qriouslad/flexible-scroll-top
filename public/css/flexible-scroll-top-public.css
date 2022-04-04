@@ -10,6 +10,11 @@
     display: inline-block;
 }
 
+.fst {
+    position: relative;
+    z-index: 999;
+}
+
 .fst .to-top {
     visibility: hidden;
     opacity: 0;
