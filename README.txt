@@ -4,7 +4,7 @@ Donate link: https://paypal.me/qriouslad
 Tags: scroll top, scroll to top, back to top, scroll up, no jquery
 Requires at least: 5.0
 Tested up to: 5.9
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,7 +44,10 @@ Flexible Scroll top was built with: [WordPress Plugin Boilerplate](https://githu
 
 == Changelog ==
 
-= 1.2.0 (February 2022) =
+= 1.2.1 (April 2022) =
+* Modify button z-index property so it stays on top
+
+= 1.2.0 (March 2022) =
 * Add background hover color settings
 
 = 1.1.0 (February 2022) =
