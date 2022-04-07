@@ -25,7 +25,7 @@ http://support.codestarthemes.com/topic/submenu-with-no-panel-only-save-button
 }
 
 .fst-options .csf-field-image_select .csf--image {
-    display: content-box;
+    box-sizing: content-box;
 }
 
 .fst-options .csf-field-image_select.icon-style img {
