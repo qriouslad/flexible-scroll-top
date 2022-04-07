@@ -171,6 +171,8 @@ class Flexible_Scroll_Top_Public {
 			$corner_spacing_numeric = 20;
 		} elseif ( $corner_spacing == 'large' ) {
 			$corner_spacing_numeric = 28;
+		} elseif ( $corner_spacing == 'custom' ) {
+			$corner_spacing_numeric = $options['fst_button']['corner_spacing_distance'];
 		} else {}
 
 		$border = $options['fst_button']['border'];
