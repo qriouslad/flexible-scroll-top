@@ -16,7 +16,7 @@
  * Plugin Name:       Flexible Scroll Top
  * Plugin URI:        https://github.com/qriouslad/flexible-scroll-top
  * Description:       Add a customizable, mobile-friendly scroll to top button that matches the design of your website. Uses SVG icon with no jQuery dependency. It's fast!
- * Version:           1.3.0
+ * Version:           1.3.1
  * Author:            Bowo
  * Author URI:        https://bowo.io
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'FLEXIBLE_SCROLL_TOP_VERSION', '1.3.0' );
+define( 'FLEXIBLE_SCROLL_TOP_VERSION', '1.3.1' );
 
 /**
  * The code that runs during plugin activation.
