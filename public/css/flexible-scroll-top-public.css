@@ -5,10 +5,6 @@
 
 /* From CodyHouse's Back to Top library - https://github.com/CodyHouse/back-to-top/blob/master/assets/css/style.css */
 
-.fst-options .csf-field-image_select .csf--image {
-    display: content-box;
-}
-
 .to-top {
     position: fixed;
     display: inline-block;
