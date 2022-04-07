@@ -4,7 +4,7 @@ Donate link: https://paypal.me/qriouslad
 Tags: scroll top, scroll to top, back to top, scroll up, no jquery
 Requires at least: 5.0
 Tested up to: 5.9
-Stable tag: 1.2.1
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ Flexible Scroll top was built with: [WordPress Plugin Boilerplate](https://githu
 3. Options to change the behaviour of the button
 
 == Changelog ==
+
+= 1.3.0 (April 2022) =
+* Implement custom corner spacing option
+* Fix sizing issue with image select buttons due to css conflict 
 
 = 1.2.1 (April 2022) =
 * Modify button z-index property so it stays on top
