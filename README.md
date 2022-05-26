@@ -15,15 +15,17 @@ Add a slick, lightweight and customizable scroll to top button that uses SVG ico
 
 ## Description
 
-**Flexible Scroll Top** plugin enable you to add a slick, lightweight and customizable scroll to top button that can match the design of your website. 
+**Flexible Scroll Top** enables you to add a slick, lightweight and customizable scroll-to-top button that can be customized to match the design of your website. 
 
 ### Features
 
 * Uses SVG icon which looks sharp at any size and screen resolution
 * Easily understandable and visual options to customize the button's appearance
 * Customize when and how the button appears or disappears with screen scrolling progression
-* Can be show / hidden on either / both desktop and mobile views
-* No jQuery dependency
+* Can be shown/hidden on either/both desktop and mobile views
+* Lightweight. Minimal CSS and JS on the frontend with no jQuery dependency.
+* Great tandem with the [Floating Share Button](https://wordpress.org/plugins/floating-share-button/) plugin. Works beatifully on both desktop and mobile devices, especially if you are looking for a minimalist approach.
+
 
 Please see the screenshots below for the range of customizations possible.
 
