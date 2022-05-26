@@ -20,6 +20,14 @@ http://support.codestarthemes.com/topic/submenu-with-no-panel-only-save-button
     font-size: 14px;
 }
 
+.fst-options .csf-header-inner h1 small a {
+    text-decoration: none;
+}
+
+.fst-options .csf-header-inner h1 small a:hover {
+    text-decoration: underline;
+}
+
 .fst-options .csf-field-image_select .csf--active figure {
     box-shadow: none;
 }
