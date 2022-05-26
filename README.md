@@ -1,23 +1,101 @@
-# Flexible Scroll Top - a WordPress Plugin
+# Flexible Scroll Top
 
-This plugin enables you to add an easily customizable, mobile-friendly scroll to top button that can match with the design of your website. It uses SVG icon with no jQuery dependency, so it's fast! 
+Contributors: qriouslad  
+Donate link: https://paypal.me/qriouslad
+Tags: scroll top, scroll to top, back to top, scroll up, no jquery  
+Requires at least: 5.0  
+Tested up to: 6.0  
+Stable tag: 1.4.1  
+License: GPLv2 or later  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+![](.wordpress-org/banner-1544x500.png)
+
+Add a slick, lightweight and customizable scroll to top button that uses SVG icon with no jQuery dependency.
+
+## Description
+
+**Flexible Scroll Top** plugin enable you to add a slick, lightweight and customizable scroll to top button that can match the design of your website. 
+
+### Features
+
+* Uses SVG icon which looks sharp at any size and screen resolution
+* Easily understandable and visual options to customize the button's appearance
+* Customize when and how the button appears or disappears with screen scrolling progression
+* Can be show / hidden on either / both desktop and mobile views
+* No jQuery dependency
 
 Please see the screenshots below for the range of customizations possible.
 
-<p><img src="https://raw.githubusercontent.com/qriouslad/flexible-scroll-top/main/public/assets/screenshot-1.jpg" alt="Main options" style=""></p>
+### Give Back
 
-<p><img src="https://raw.githubusercontent.com/qriouslad/flexible-scroll-top/main/public/assets/screenshot-2.jpg" alt="Appearance options" style=""></p>
+* [A nice review](https://wordpress.org/plugins/flexible-scroll-top/#reviews) would be great!
+* [Give feedback](https://wordpress.org/support/plugin/flexible-scroll-top/) and help improve future versions.
+* [Github repo](https://github.com/qriouslad/flexible-scroll-top) to contribute code.
+* [Donate](https://paypal.me/qriouslad) and support my work.
 
-<p><img src="https://raw.githubusercontent.com/qriouslad/flexible-scroll-top/main/public/assets/screenshot-3.png" alt="Behaviour options" style=""></p>
+## Screenshots
+
+1. Main options for the button
+   ![Main options for the button](.wordpress-org/screenshot-1.png)
+2. Options to customize the appearance of the button
+   ![Options to customize the appearance of the button](.wordpress-org/screenshot-2.png)
+3. Options to change the behaviour of the button
+   ![Options to change the behaviour of the button](.wordpress-org/screenshot-3.png)
 
 ## Installation
 
-Login to your WordPress admin dashboard, and go to "Plugins >> Add New" page. Search for "Flexible Scroll Top", install and activate. Then go to the settings page to enable the scroll to top button.
+1. Login to your WordPress admin dashboard and go to "Plugins > Add New" page.
+2. Search for "Flexible Scroll Top".
+3. Click "Install" and then "Activate".
+4. Go to "Settings > Flexible Scroll Top" and switch to YES on the "Enable?" option and click "Save".
+5. Customize the appearance and behaviour as needed.
 
-## Give Back
+## Frequently Asked Questions
 
-Open a pull request if you'd like to contribute code, or head over to my [PayPal.me](https://paypal.me/qriouslad) page if you'd like to buy me a cup of milk tea after finding this plugin useful for your website. Or, a quick and [nice review](https://wordpress.org/plugins/flexible-scroll-top/#reviews) would be great too!. Thanks!
-
-## Credits
+### How was this plugin built?
 
 This plugin is built with the excellent [WordPress Plugin Boilerplate](https://github.com/devinvinson/WordPress-Plugin-Boilerplate/), [wppb.me](https://wppb.me/) generator, [CodeStar](https://github.com/Codestar/codestar-framework) admin options framework, [Back to Top](https://github.com/CodyHouse/back-to-top) pure javascript library and some nice [freeicons.io](https://freeicons.io/) icons from [icon king1](https://freeicons.io/profile/3), [Reda](https://freeicons.io/profile/6156), [wishforge.games](https://freeicons.io/profile/2257) and [Raj Dev](https://freeicons.io/profile/714).
+
+## Changelog
+
+### 1.4.1 (2022.05.26)
+
+* Tested to be compatible with WordPress 6.0
+* Add review, feedback and donate links in settings page
+
+### 1.4.0 (April 2022)
+
+* Downgrade CodeStar framework with free, lighter version
+
+### 1.3.2 (April 2022)
+
+* Fix sizing issue with image select buttons due to css conflict 
+
+### 1.3.0 (April 2022)
+
+* Implement custom corner spacing option
+
+### 1.2.1 (April 2022)
+
+* Modify button z-index property so it stays on top
+
+### 1.2.0 (March 2022)
+
+* Add background hover color settings
+
+### 1.1.0 (February 2022)
+
+* Replace "Hide on Mobile" option with "Show on Desktop" and "Show on Mobile" options. This is for better control of how the button is shown or hidden on both screen sizes.
+
+### 1.0.2 (February 2022)
+
+* Update SVG icon definitions to work with Safari on iOS.
+
+### 1.0.1 (February 2022)
+
+* Capitalize "Hide on Mobile" field title.
+
+### 1.0.0 (February 2022)
+
+* Initial, stable release.
