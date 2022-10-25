@@ -377,4 +377,21 @@ class Flexible_Scroll_Top_Admin {
 
 	}
 
+	/**
+	 * Suppress all admin notices in the plugin's main page.
+	 *
+	 * @hooked admin_notices
+	 *
+	 * @since 1.7.1
+	 */
+	public function suppress_admin_notices() {
+
+		global $plugin_page;
+
+		if ( $this->plugin_name === $plugin_page ) {
+			remove_all_actions( 'admin_notices' );
+		}
+
+	}
+
 }
