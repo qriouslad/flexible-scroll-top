@@ -107,7 +107,7 @@ class Flexible_Scroll_Top_Admin {
 	 */
 	public function add_settings_page() {
 
-		if ( class_exists( 'CSF' ) ) {
+		if ( class_exists( 'FLSCTO_CSF' ) ) {
 
 			// Set a unique slug-like ID
 
@@ -115,7 +115,7 @@ class Flexible_Scroll_Top_Admin {
 
 			// Create options
 			
-			CSF::createOptions( $prefix, array(
+			FLSCTO_CSF::createOptions( $prefix, array(
 				'menu_title' 		=> 'Flexible Scroll Top',
 				'menu_slug' 		=> 'flexible-scroll-top',
 				'menu_type'			=> 'submenu',
@@ -136,7 +136,7 @@ class Flexible_Scroll_Top_Admin {
 
 			// Create Button Options section
 			
-			CSF::createSection( $prefix, array(
+			FLSCTO_CSF::createSection( $prefix, array(
 				'title'		=> 'Options',
 				'fields'	=> array(
 					array(
@@ -350,12 +350,9 @@ class Flexible_Scroll_Top_Admin {
 							),
 						),
 					),
-					// array(
-					// 	'type'		=> 'content',
-					// 	// 'title'		=> 'About',
-					// 	'content'	=> '<small>Flexible Scroll Top is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a> generator, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar Framework</a> and the <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library from <a href="https://codyhouse.co/" target="_blank">CodyHouse</a>.</small>',
-					// ),
+
 				),
+
 			) );
 
 		}
