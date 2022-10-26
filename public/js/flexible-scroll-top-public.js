@@ -107,10 +107,6 @@
 
 		Util.addClass(backTop, fstPositionClass +" "+ fstStyleClass +" "+ fstBorderClass +" "+ fstColorSchemeClass);
 
-		window.addEventListener("load",function(event) {
-			document.head.insertAdjacentHTML("beforeend", styles);
-		},false);
-
 		function checkBackToTop() {
 			var windowTop = window.scrollY || document.documentElement.scrollTop;
 
