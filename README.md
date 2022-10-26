@@ -4,8 +4,8 @@ Contributors: qriouslad
 Donate link: https://paypal.me/qriouslad
 Tags: scroll top, scroll to top, back to top, scroll up, no jquery  
 Requires at least: 5.0  
-Tested up to: 6.0  
-Stable tag: 1.4.1  
+Tested up to: 6.0.3  
+Stable tag: 1.5.0  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,15 +15,16 @@ Add a slick, lightweight and customizable scroll to top button that uses SVG ico
 
 ## Description
 
-**Flexible Scroll Top** plugin enable you to add a slick, lightweight and customizable scroll to top button that can match the design of your website. 
+**Flexible Scroll Top** enables you to add a slick, lightweight and customizable scroll-to-top button that can be customized to match the design of your website. 
 
 ### Features
 
 * Uses SVG icon which looks sharp at any size and screen resolution
 * Easily understandable and visual options to customize the button's appearance
 * Customize when and how the button appears or disappears with screen scrolling progression
-* Can be show / hidden on either / both desktop and mobile views
-* No jQuery dependency
+* Can be shown/hidden on either/both desktop and mobile views
+* Lightweight. Minimal CSS and JS on the frontend with no jQuery dependency.
+* Great tandem with the [Floating Share Button](https://wordpress.org/plugins/floating-share-button/) plugin. Works beatifully on both desktop and mobile devices, especially if you are looking for a minimalist approach.
 
 Please see the screenshots below for the range of customizations possible.
 
@@ -58,6 +59,15 @@ Please see the screenshots below for the range of customizations possible.
 This plugin is built with the excellent [WordPress Plugin Boilerplate](https://github.com/devinvinson/WordPress-Plugin-Boilerplate/), [wppb.me](https://wppb.me/) generator, [CodeStar](https://github.com/Codestar/codestar-framework) admin options framework, [Back to Top](https://github.com/CodyHouse/back-to-top) pure javascript library and some nice [freeicons.io](https://freeicons.io/) icons from [icon king1](https://freeicons.io/profile/3), [Reda](https://freeicons.io/profile/6156), [wishforge.games](https://freeicons.io/profile/2257) and [Raj Dev](https://freeicons.io/profile/714).
 
 ## Changelog
+
+### 1.5.0 (2022.10.26)
+
+* [Added] Suppression of all admin notices to keep the plugin settings page clean
+* [Changed] Properly inline CSS styles defined via plugin settings using wp_add_inline_style()
+* [Changed] Properly output behaviour defined via plugin settings in the public js file via wp_localize_script()
+* [Security] Output svg directly, i.e. not via a variable, for better security best practice compliance
+* [Changed] Now uses a prefixed CodeStar Framework to prevent collision with other plugins loading the default, non-prefixed version
+* [Changed] Improved links style in settings page header and footer
 
 ### 1.4.1 (2022.05.26)
 

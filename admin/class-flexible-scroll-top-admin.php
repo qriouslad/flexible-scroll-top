@@ -107,7 +107,7 @@ class Flexible_Scroll_Top_Admin {
 	 */
 	public function add_settings_page() {
 
-		if ( class_exists( 'CSF' ) ) {
+		if ( class_exists( 'FLSCTO_CSF' ) ) {
 
 			// Set a unique slug-like ID
 
@@ -115,14 +115,14 @@ class Flexible_Scroll_Top_Admin {
 
 			// Create options
 			
-			CSF::createOptions( $prefix, array(
+			FLSCTO_CSF::createOptions( $prefix, array(
 				'menu_title' 		=> 'Flexible Scroll Top',
 				'menu_slug' 		=> 'flexible-scroll-top',
 				'menu_type'			=> 'submenu',
 				'menu_parent'		=> 'options-general.php',
 				'menu_position'		=> 100,
 				// 'menu_icon'			=> 'dashicons-arrow-up-alt2',
-				'framework_title' 	=> 'Flexible Scroll Top <small>by <a href="https://bowo.io" target="_blank">bowo.io</a> | <a href="https://wordpress.org/plugins/flexible-scroll-top/#reviews" target="_blank" class="header-action">Review</a> &bull; <a href="https://wordpress.org/support/plugin/flexible-scroll-top/" target="_blank" class="header-action">Feedback</a> &bull; <a href="https://paypal.me/qriouslad" target="_blank" class="header-action">Donate</a></small>',
+				'framework_title' 	=> 'Flexible Scroll Top <small>by <a href="https://bowo.io" target="_blank">bowo.io</a> <a href="https://wordpress.org/plugins/flexible-scroll-top/" target="_blank" class="fst-header-action"><span>&#8505;</span> Info</a><a href="https://wordpress.org/plugins/flexible-scroll-top/#reviews" target="_blank" class="fst-header-action"><span>&starf;</span> Review</a><a href="https://wordpress.org/support/plugin/flexible-scroll-top/" target="_blank" class="fst-header-action">&#10010; Feedback</a><a href="https://paypal.me/qriouslad" target="_blank" class="fst-header-action">&#9829; Donate</a></small>',
 				'framework_class' 	=> 'fst-options',
 				'show_bar_menu' 	=> false,
 				'show_search' 		=> false,
@@ -131,12 +131,12 @@ class Flexible_Scroll_Top_Admin {
 				'show_form_warning' => false,
 				'save_defaults'		=> true,
 				'show_footer' 		=> false,
-				'footer_credit'		=> '<a href="https://wordpress.org/plugins/flexible-scroll-top/" target="_blank">Flexible Scroll Top</a> (<a href="https://github.com/qriouslad/flexible-scroll-top" target="_blank">github</a>) is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a>, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar</a> framework, <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library and <a href="https://freeicons.io/" target="_blank">freeicons.io</a> icons.',
+				'footer_credit'		=> '<a href="https://wordpress.org/plugins/flexible-scroll-top/" target="_blank">Flexible Scroll Top</a> (<a href="https://github.com/qriouslad/flexible-scroll-top" target="_blank">github</a>) is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a>, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar</a>, <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> and <a href="https://freeicons.io/" target="_blank">freeicons.io</a> icons.',
 			) );
 
 			// Create Button Options section
 			
-			CSF::createSection( $prefix, array(
+			FLSCTO_CSF::createSection( $prefix, array(
 				'title'		=> 'Options',
 				'fields'	=> array(
 					array(
@@ -350,12 +350,9 @@ class Flexible_Scroll_Top_Admin {
 							),
 						),
 					),
-					// array(
-					// 	'type'		=> 'content',
-					// 	// 'title'		=> 'About',
-					// 	'content'	=> '<small>Flexible Scroll Top is built with the <a href="https://github.com/devinvinson/WordPress-Plugin-Boilerplate/" target="_blank">WordPress Plugin Boilerplate</a>, <a href="https://wppb.me" target="_blank">wppb.me</a> generator, <a href="https://github.com/Codestar/codestar-framework" target="_blank">CodeStar Framework</a> and the <a href="https://github.com/CodyHouse/back-to-top" target="_blank">Back to Top</a> library from <a href="https://codyhouse.co/" target="_blank">CodyHouse</a>.</small>',
-					// ),
+
 				),
+
 			) );
 
 		}
@@ -374,6 +371,23 @@ class Flexible_Scroll_Top_Admin {
 		array_unshift($links, $settings_link); 
 
 		return $links; 
+
+	}
+
+	/**
+	 * Suppress all admin notices in the plugin's main page.
+	 *
+	 * @hooked admin_notices
+	 *
+	 * @since 1.7.1
+	 */
+	public function suppress_admin_notices() {
+
+		global $plugin_page;
+
+		if ( $this->plugin_name === $plugin_page ) {
+			remove_all_actions( 'admin_notices' );
+		}
 
 	}
 
