@@ -28,6 +28,21 @@ http://support.codestarthemes.com/topic/submenu-with-no-panel-only-save-button
     text-decoration: underline;
 }
 
+.fst-header-action {
+    margin-left: 16px;
+    text-decoration: none;
+    transition: .25s;
+    line-height: 30px;
+}
+
+.fst-header-action:first-child {
+    margin-left: 0;
+}
+
+.fst-header-action:hover {
+    text-decoration: underline;
+}
+
 .fst-options .csf-field-image_select .csf--active figure {
     box-shadow: none;
 }
