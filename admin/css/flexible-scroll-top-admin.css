@@ -21,6 +21,7 @@ http://support.codestarthemes.com/topic/submenu-with-no-panel-only-save-button
 }
 
 .fst-options .csf-header-inner h1 small a {
+    font-weight: normal;
     text-decoration: none;
 }
 
