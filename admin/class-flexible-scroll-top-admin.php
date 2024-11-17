@@ -122,7 +122,7 @@ class Flexible_Scroll_Top_Admin {
 				'menu_parent'		=> 'options-general.php',
 				'menu_position'		=> 100,
 				// 'menu_icon'			=> 'dashicons-arrow-up-alt2',
-				'framework_title' 	=> 'Flexible Scroll Top <small>by <a href="https://bowo.io" target="_blank">bowo.io</a> <a href="https://wordpress.org/plugins/flexible-scroll-top/" target="_blank" class="fst-header-action"><span>&#8505;</span> Info</a><a href="https://wordpress.org/plugins/flexible-scroll-top/#reviews" target="_blank" class="fst-header-action"><span>&starf;</span> Review</a><a href="https://wordpress.org/support/plugin/flexible-scroll-top/" target="_blank" class="fst-header-action">&#10010; Feedback</a><a href="https://paypal.me/qriouslad" target="_blank" class="fst-header-action">&#9829; Donate</a></small>',
+				'framework_title' 	=> 'Flexible Scroll Top <small>by <a href="https://bowo.io" target="_blank">bowo.io</a><a href="https://wordpress.org/plugins/flexible-scroll-top/" target="_blank" class="fst-header-action"><span>&#8505;</span> Info</a><a href="https://wordpress.org/plugins/flexible-scroll-top/#reviews" target="_blank" class="fst-header-action"><span>&starf;</span> Review</a><a href="https://wordpress.org/support/plugin/flexible-scroll-top/" target="_blank" class="fst-header-action">&#10010; Feedback</a><a href="https://paypal.me/qriouslad" target="_blank" class="fst-header-action">&#9829; Donate</a></small>',
 				'framework_class' 	=> 'fst-options',
 				'show_bar_menu' 	=> false,
 				'show_search' 		=> false,

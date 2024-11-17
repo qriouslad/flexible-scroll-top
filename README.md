@@ -35,6 +35,13 @@ Please see the screenshots below for the range of customizations possible.
 * [Github repo](https://github.com/qriouslad/flexible-scroll-top) to contribute code.
 * [Donate](https://paypal.me/qriouslad) and support my work.
 
+### Check These Out Too
+
+* [Admin and Site Enhancements](https://wordpress.org/plugins/admin-site-enhancements/) helps you to easily enhance various admin workflows and site aspects while replacing multiple plugins doing it.
+* [System Dashboard](https://wordpress.org/plugins/system-dashboard/): Central dashboard to monitor various WordPress components, processes and data, including the server.
+* [Debug Log Manager](https://wordpress.org/plugins/debug-log-manager/): Log PHP, database and JavaScript errors via WP_DEBUG with one click. Conveniently create, view, filter and clear the debug.log file.
+* [Variable Inspector](https://wordpress.org/plugins/variable-inspector/): Inspect PHP variables on a central dashboard in wp-admin for convenient debugging.
+
 ## Screenshots
 
 1. Main options for the button
@@ -59,6 +66,10 @@ Please see the screenshots below for the range of customizations possible.
 This plugin is built with the excellent [WordPress Plugin Boilerplate](https://github.com/devinvinson/WordPress-Plugin-Boilerplate/), [wppb.me](https://wppb.me/) generator, [CodeStar](https://github.com/Codestar/codestar-framework) admin options framework, [Back to Top](https://github.com/CodyHouse/back-to-top) pure javascript library and some nice [freeicons.io](https://freeicons.io/) icons from [icon king1](https://freeicons.io/profile/3), [Reda](https://freeicons.io/profile/6156), [wishforge.games](https://freeicons.io/profile/2257) and [Raj Dev](https://freeicons.io/profile/714).
 
 ## Changelog
+
+### 1.5.1 (2024.11.17)
+
+* Tested to be compatible with WordPress 6.7
 
 ### 1.5.0 (2022.10.26)
 
